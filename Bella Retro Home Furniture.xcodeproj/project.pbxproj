@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADC5E9D2B104676005084D7 /* Bella_Retro_Home_FurnitureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5E9C2B104676005084D7 /* Bella_Retro_Home_FurnitureApp.swift */; };
+		CADC5E9F2B104676005084D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5E9E2B104676005084D7 /* ContentView.swift */; };
+		CADC5EA12B104676005084D7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5EA02B104676005084D7 /* Item.swift */; };
+		CADC5EA32B104678005084D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADC5EA22B104678005084D7 /* Assets.xcassets */; };
+		CADC5EA72B104678005084D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADC5EA62B104678005084D7 /* Preview Assets.xcassets */; };
+		CADC5EB22B104678005084D7 /* Bella_Retro_Home_FurnitureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5EB12B104678005084D7 /* Bella_Retro_Home_FurnitureTests.swift */; };
+		CADC5EBC2B104678005084D7 /* Bella_Retro_Home_FurnitureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5EBB2B104678005084D7 /* Bella_Retro_Home_FurnitureUITests.swift */; };
+		CADC5EBE2B104678005084D7 /* Bella_Retro_Home_FurnitureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5EBD2B104678005084D7 /* Bella_Retro_Home_FurnitureUITestsLaunchTests.swift */; };
+		CADC5ED12B1048F8005084D7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADC5ED02B1048F8005084D7 /* Extension.swift */; };
+		CADC5ED52B1048F8005084D7 /* Extension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = CADC5ECE2B1048F8005084D7 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADC5EAE2B104678005084D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADC5E912B104676005084D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADC5E982B104676005084D7;
+			remoteInfo = "Bella Retro Home Furniture";
+		};
+		CADC5EB82B104678005084D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADC5E912B104676005084D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADC5E982B104676005084D7;
+			remoteInfo = "Bella Retro Home Furniture";
+		};
+		CADC5ED32B1048F8005084D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADC5E912B104676005084D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADC5ECD2B1048F8005084D7;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CADC5ED92B1048F8005084D7 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				CADC5ED52B1048F8005084D7 /* Extension.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CADC5E992B104676005084D7 /* Bella Retro Home Furniture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bella Retro Home Furniture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADC5E9C2B104676005084D7 /* Bella_Retro_Home_FurnitureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bella_Retro_Home_FurnitureApp.swift; sourceTree = "<group>"; };
+		CADC5E9E2B104676005084D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CADC5EA02B104676005084D7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CADC5EA22B104678005084D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADC5EA42B104678005084D7 /* Bella_Retro_Home_Furniture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bella_Retro_Home_Furniture.entitlements; sourceTree = "<group>"; };
+		CADC5EA62B104678005084D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CADC5EA82B104678005084D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADC5EAD2B104678005084D7 /* Bella Retro Home FurnitureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bella Retro Home FurnitureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADC5EB12B104678005084D7 /* Bella_Retro_Home_FurnitureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bella_Retro_Home_FurnitureTests.swift; sourceTree = "<group>"; };
+		CADC5EB72B104678005084D7 /* Bella Retro Home FurnitureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bella Retro Home FurnitureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADC5EBB2B104678005084D7 /* Bella_Retro_Home_FurnitureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bella_Retro_Home_FurnitureUITests.swift; sourceTree = "<group>"; };
+		CADC5EBD2B104678005084D7 /* Bella_Retro_Home_FurnitureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bella_Retro_Home_FurnitureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CADC5ECE2B1048F8005084D7 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADC5ED02B1048F8005084D7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CADC5ED22B1048F8005084D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADC5E962B104676005084D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EAA2B104678005084D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EB42B104678005084D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5ECB2B1048F8005084D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADC5E902B104676005084D7 = {
+			isa = PBXGroup;
+			children = (
+				CADC5E9B2B104676005084D7 /* Bella Retro Home Furniture */,
+				CADC5EB02B104678005084D7 /* Bella Retro Home FurnitureTests */,
+				CADC5EBA2B104678005084D7 /* Bella Retro Home FurnitureUITests */,
+				CADC5ECF2B1048F8005084D7 /* Extension */,
+				CADC5E9A2B104676005084D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADC5E9A2B104676005084D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5E992B104676005084D7 /* Bella Retro Home Furniture.app */,
+				CADC5EAD2B104678005084D7 /* Bella Retro Home FurnitureTests.xctest */,
+				CADC5EB72B104678005084D7 /* Bella Retro Home FurnitureUITests.xctest */,
+				CADC5ECE2B1048F8005084D7 /* Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADC5E9B2B104676005084D7 /* Bella Retro Home Furniture */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5E9C2B104676005084D7 /* Bella_Retro_Home_FurnitureApp.swift */,
+				CADC5E9E2B104676005084D7 /* ContentView.swift */,
+				CADC5EA02B104676005084D7 /* Item.swift */,
+				CADC5EA22B104678005084D7 /* Assets.xcassets */,
+				CADC5EA42B104678005084D7 /* Bella_Retro_Home_Furniture.entitlements */,
+				CADC5EA82B104678005084D7 /* Info.plist */,
+				CADC5EA52B104678005084D7 /* Preview Content */,
+			);
+			path = "Bella Retro Home Furniture";
+			sourceTree = "<group>";
+		};
+		CADC5EA52B104678005084D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5EA62B104678005084D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CADC5EB02B104678005084D7 /* Bella Retro Home FurnitureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5EB12B104678005084D7 /* Bella_Retro_Home_FurnitureTests.swift */,
+			);
+			path = "Bella Retro Home FurnitureTests";
+			sourceTree = "<group>";
+		};
+		CADC5EBA2B104678005084D7 /* Bella Retro Home FurnitureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5EBB2B104678005084D7 /* Bella_Retro_Home_FurnitureUITests.swift */,
+				CADC5EBD2B104678005084D7 /* Bella_Retro_Home_FurnitureUITestsLaunchTests.swift */,
+			);
+			path = "Bella Retro Home FurnitureUITests";
+			sourceTree = "<group>";
+		};
+		CADC5ECF2B1048F8005084D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CADC5ED02B1048F8005084D7 /* Extension.swift */,
+				CADC5ED22B1048F8005084D7 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADC5E982B104676005084D7 /* Bella Retro Home Furniture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADC5EC12B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home Furniture" */;
+			buildPhases = (
+				CADC5E952B104676005084D7 /* Sources */,
+				CADC5E962B104676005084D7 /* Frameworks */,
+				CADC5E972B104676005084D7 /* Resources */,
+				CADC5ED92B1048F8005084D7 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADC5ED42B1048F8005084D7 /* PBXTargetDependency */,
+			);
+			name = "Bella Retro Home Furniture";
+			productName = "Bella Retro Home Furniture";
+			productReference = CADC5E992B104676005084D7 /* Bella Retro Home Furniture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CADC5EAC2B104678005084D7 /* Bella Retro Home FurnitureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADC5EC42B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home FurnitureTests" */;
+			buildPhases = (
+				CADC5EA92B104678005084D7 /* Sources */,
+				CADC5EAA2B104678005084D7 /* Frameworks */,
+				CADC5EAB2B104678005084D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADC5EAF2B104678005084D7 /* PBXTargetDependency */,
+			);
+			name = "Bella Retro Home FurnitureTests";
+			productName = "Bella Retro Home FurnitureTests";
+			productReference = CADC5EAD2B104678005084D7 /* Bella Retro Home FurnitureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CADC5EB62B104678005084D7 /* Bella Retro Home FurnitureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADC5EC72B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home FurnitureUITests" */;
+			buildPhases = (
+				CADC5EB32B104678005084D7 /* Sources */,
+				CADC5EB42B104678005084D7 /* Frameworks */,
+				CADC5EB52B104678005084D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADC5EB92B104678005084D7 /* PBXTargetDependency */,
+			);
+			name = "Bella Retro Home FurnitureUITests";
+			productName = "Bella Retro Home FurnitureUITests";
+			productReference = CADC5EB72B104678005084D7 /* Bella Retro Home FurnitureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CADC5ECD2B1048F8005084D7 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADC5ED62B1048F8005084D7 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				CADC5ECA2B1048F8005084D7 /* Sources */,
+				CADC5ECB2B1048F8005084D7 /* Frameworks */,
+				CADC5ECC2B1048F8005084D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = CADC5ECE2B1048F8005084D7 /* Extension.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADC5E912B104676005084D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CADC5E982B104676005084D7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CADC5EAC2B104678005084D7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CADC5E982B104676005084D7;
+					};
+					CADC5EB62B104678005084D7 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CADC5E982B104676005084D7;
+					};
+					CADC5ECD2B1048F8005084D7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = CADC5E942B104676005084D7 /* Build configuration list for PBXProject "Bella Retro Home Furniture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADC5E902B104676005084D7;
+			productRefGroup = CADC5E9A2B104676005084D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADC5E982B104676005084D7 /* Bella Retro Home Furniture */,
+				CADC5EAC2B104678005084D7 /* Bella Retro Home FurnitureTests */,
+				CADC5EB62B104678005084D7 /* Bella Retro Home FurnitureUITests */,
+				CADC5ECD2B1048F8005084D7 /* Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADC5E972B104676005084D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC5EA72B104678005084D7 /* Preview Assets.xcassets in Resources */,
+				CADC5EA32B104678005084D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EAB2B104678005084D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EB52B104678005084D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5ECC2B1048F8005084D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADC5E952B104676005084D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC5E9F2B104676005084D7 /* ContentView.swift in Sources */,
+				CADC5EA12B104676005084D7 /* Item.swift in Sources */,
+				CADC5E9D2B104676005084D7 /* Bella_Retro_Home_FurnitureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EA92B104678005084D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC5EB22B104678005084D7 /* Bella_Retro_Home_FurnitureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5EB32B104678005084D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC5EBE2B104678005084D7 /* Bella_Retro_Home_FurnitureUITestsLaunchTests.swift in Sources */,
+				CADC5EBC2B104678005084D7 /* Bella_Retro_Home_FurnitureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADC5ECA2B1048F8005084D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADC5ED12B1048F8005084D7 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADC5EAF2B104678005084D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADC5E982B104676005084D7 /* Bella Retro Home Furniture */;
+			targetProxy = CADC5EAE2B104678005084D7 /* PBXContainerItemProxy */;
+		};
+		CADC5EB92B104678005084D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADC5E982B104676005084D7 /* Bella Retro Home Furniture */;
+			targetProxy = CADC5EB82B104678005084D7 /* PBXContainerItemProxy */;
+		};
+		CADC5ED42B1048F8005084D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADC5ECD2B1048F8005084D7 /* Extension */;
+			targetProxy = CADC5ED32B1048F8005084D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CADC5EBF2B104678005084D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = default;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = default;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CADC5EC02B104678005084D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = default;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = default;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CADC5EC22B104678005084D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bella Retro Home Furniture/Bella_Retro_Home_Furniture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bella Retro Home Furniture/Preview Content\"";
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bella Retro Home Furniture/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bella Retro Home Furniture";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-Furniture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADC5EC32B104678005084D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Bella Retro Home Furniture/Bella_Retro_Home_Furniture.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bella Retro Home Furniture/Preview Content\"";
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bella Retro Home Furniture/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bella Retro Home Furniture";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-Furniture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CADC5EC52B104678005084D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-FurnitureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bella Retro Home Furniture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bella Retro Home Furniture";
+			};
+			name = Debug;
+		};
+		CADC5EC62B104678005084D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-FurnitureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bella Retro Home Furniture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bella Retro Home Furniture";
+			};
+			name = Release;
+		};
+		CADC5EC82B104678005084D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-FurnitureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bella Retro Home Furniture";
+			};
+			name = Debug;
+		};
+		CADC5EC92B104678005084D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-FurnitureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bella Retro Home Furniture";
+			};
+			name = Release;
+		};
+		CADC5ED72B1048F8005084D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-Furniture.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADC5ED82B1048F8005084D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 673XY23SZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Extension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-73XY23SZ7.Bella-Retro-Home-Furniture.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADC5E942B104676005084D7 /* Build configuration list for PBXProject "Bella Retro Home Furniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADC5EBF2B104678005084D7 /* Debug */,
+				CADC5EC02B104678005084D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADC5EC12B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home Furniture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADC5EC22B104678005084D7 /* Debug */,
+				CADC5EC32B104678005084D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADC5EC42B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home FurnitureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADC5EC52B104678005084D7 /* Debug */,
+				CADC5EC62B104678005084D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADC5EC72B104678005084D7 /* Build configuration list for PBXNativeTarget "Bella Retro Home FurnitureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADC5EC82B104678005084D7 /* Debug */,
+				CADC5EC92B104678005084D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADC5ED62B1048F8005084D7 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADC5ED72B1048F8005084D7 /* Debug */,
+				CADC5ED82B1048F8005084D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADC5E912B104676005084D7 /* Project object */;
+}
